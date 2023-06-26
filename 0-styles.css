@@ -1,0 +1,150 @@
+/* Variables
+   ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+   :root {
+    --color-red: #FF6565;
+    --color-white: #FFF;
+    --color-black: #000;
+
+    --default-font: 'Source Sans Pro', sans-serif;
+    --font-light: url(fonts/source-sans-pro/SourceSansPro-Light.otf);
+    --font-bold: url(fonts/source-sans-pro/SourceSansPro-Bold.otf);
+   }
+
+/* Helpers Section
+    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+
+/* Body Section
+    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+  body {
+  font-family: var(--default-font);
+  }
+
+/* Flexbox Section
+    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+  .flex {
+    display: flex;
+  }
+
+/* Header Section
+    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+  header {
+    background-image: url('images/headphones_hero_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 800px;
+  
+    display: flex;
+    color:#FFF;
+
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+  }
+  .header {
+    margin: 30px 200px;
+    width: 1000px;
+
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    position: relative;
+  }
+
+  /* Body Text Section
+      ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+  h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #FFF;
+  }
+  h2 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #FFF;
+  }
+  p {
+    font-size: 16px;
+    font-weight: lighter;
+    color: #FFF;
+
+    line-height: 26px;
+  }
+
+/* Logo Section
+    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+    .logo {
+      height: 32px;
+    }
+
+/* Header Nav Links Section
+    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+  ul {
+    color:#FFF;
+    display: flex;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  li {
+    margin: 1rem;
+  }
+  a {
+    text-decoration: none;
+    color: var(--color-white);
+  }
+  a:hover{
+    color: var(--color-red);
+  }
+  .header-menu {
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .hamburger /* mobile menu */ {
+    align-self: flex-end;
+  }
+
+/* Main Section
+    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+  .header-main {
+    width: 637px;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+
+/* Button Section
+    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+
+  .call-button {
+    align-self: center;
+    color: #FFF;
+    background-color: #FF6565;
+
+    width: 12rem;
+    height: 3rem;
+
+    border: none;
+    border-radius: 1.5rem;
+
+    font-weight: bold;
+    font-size: 15px;
+
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+  } 
+  .call-button:hover {
+    opacity: 0.9;
+  }
