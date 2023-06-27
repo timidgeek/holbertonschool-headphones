@@ -1,6 +1,16 @@
+/* Imports
+   ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
+   @import url("./holberton_school-icon/style.css");
+   .holberton_school-icon-ic_sound,
+   .holberton_school-icon-ic_video,
+   .holberton_school-icon-ic_music,
+   .holberton_school-icon-ic_hearing {
+    color: var(--color-red);
+    font-size: 46px;
+   }
+
 /* Variables
    ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
-
    :root {
     --color-red: #FF6565;
     --color-white: #FFF;
@@ -199,6 +209,7 @@
       padding-bottom: 110px;
     }
     .wwd-h3 {
+      padding-top: 31px;
       font-family: var(--font-semi-bold);
       font-size: 18px;
     }
@@ -206,6 +217,9 @@
       font-size: 14px;
       line-height: 26px;
       max-width: 207px;
+    }
+    .wwd-image-box {
+      padding-right: 58px;
     }
 
 
@@ -296,10 +310,23 @@
       width: 0;
       background-color: transparent;
     }
+    /* what we do section */
+    .wwd-images {
+      flex-direction: column;
+    }
+    .wwd-image-box {
+      padding-right: 0px;
+      padding-bottom: 96px;
+    }
   }
 
 /* Tablet Section
     ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
   @media screen and (max-width: 768px)  {
-
+    .wwd-images {
+      flex-direction: row;
+      flex-wrap: wrap;
     }
+    .wwd-image-box {
+    }
+  }
