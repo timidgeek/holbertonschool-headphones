@@ -31,7 +31,7 @@
 
 /* Helpers Section
     ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
-
+  
 
 /* Body Section
     ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
@@ -171,6 +171,7 @@
                                     ❋ * ˚ ┉ ༝ ✧ */
 
 
+
 /* ✧ ༝ ┉ ˚ * ❋ 
 ❋ * ˚ ┉ ༝ ✧ * BEGIN WHAT WE DO SECTION * ✧ ༝ ┉ ˚ * ❋ 
                                       ❋ * ˚ ┉ ༝ ✧ */
@@ -221,7 +222,118 @@
     .wwd-image-box {
       padding-right: 58px;
     }
+/* ✧ ༝ ┉ ˚ * ❋ 
+❋ * ˚ ┉ ༝ ✧ * END WHAT WE DO SECTION * ✧ ༝ ┉ ˚ * ❋ 
+                                    ❋ * ˚ ┉ ༝ ✧ */
 
+
+
+/* ✧ ༝ ┉ ˚ * ❋ 
+❋ * ˚ ┉ ༝ ✧ * BEGIN OUR RESULTS SECTION * ✧ ༝ ┉ ˚ * ❋ 
+                                      ❋ * ˚ ┉ ༝ ✧ */
+
+    .or-background {
+      background-image: url('images/headphones_hero_2.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      min-height: 650px;
+    }
+    .our-results {
+      margin: 0 auto;
+      text-align: center;
+      max-width: 1000px;
+    }
+    .or-title {
+      padding-top: 140px;
+      font-size: 32px;
+      font-family: var(--font-semi-bold);
+      color: var(--color-white);
+    }
+    .or-p {
+      margin: 0 auto;
+      max-width: 637px;
+    }
+    .or-images {
+      padding-top: 56px;
+      padding-bottom: 79px;
+      display: flex;
+      justify-content: space-between;
+      /* align-items: center; */
+    }
+    .pentagone {
+      height: 170px;
+      /* position: relative; */
+    }
+    /* .text-overlay {
+      position: relative;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -180%); */
+    }
+    .pent-title-size {
+      font-size: 46px;
+    }
+
+/* ✧ ༝ ┉ ˚ * ❋ 
+❋ * ˚ ┉ ༝ ✧ * END OUR RESULTS SECTION * ✧ ༝ ┉ ˚ * ❋ 
+                                    ❋ * ˚ ┉ ༝ ✧ */
+
+
+
+/* ✧ ༝ ┉ ˚ * ❋ 
+❋ * ˚ ┉ ༝ ✧ * BEGIN CONTACT US SECTION * ✧ ༝ ┉ ˚ * ❋ 
+                                      ❋ * ˚ ┉ ༝ ✧ */
+    .contact-us {  
+      margin: 0 auto;
+      max-width: 400px;
+      align-items: center;
+      text-align: center;
+    }
+    .contact-title {
+      font-size: 32px;
+      font-weight: 600;
+      color: var(-color-black);
+    }
+    form {
+      margin: 50px auto;
+      max-width: 420px;
+    }
+    .form-fill {
+      display: flex;
+      flex-direction: column;
+      margin: 0 auto;
+      padding: 0;
+
+      color: var(--color-black);
+      font-size: 16px;
+      border: none;
+      line-height: 22px;
+      margin-bottom: 3rem;
+      border-bottom: 2px solid  rgba(0, 0, 0, 0.1745);
+      
+      resize: none;
+      align-items: stretch;
+    }
+    .call-2 {
+      align-self: center;
+      color: #FFF;
+      background-color: #FF6565;
+
+      width: 12rem;
+      height: 3rem;
+
+      border: none;
+      border-radius: 1.5rem;
+
+      font-weight: bold;
+      font-size: 15px;
+
+      cursor: pointer;
+    } 
+    .call-2:hover {
+      opacity: 0.9;
+    }
 
 
 /* Hamburger Section
@@ -231,6 +343,9 @@
       position: absolute;
     }
   
+
+
+
 /* Mobile Section
     ✧ ༝ ┉ ˚ * ❋ ❋ * ˚ ┉ ༝ ✧ */
   @media screen and (max-width: 414px)  {
@@ -326,7 +441,5 @@
     .wwd-images {
       flex-direction: row;
       flex-wrap: wrap;
-    }
-    .wwd-image-box {
     }
   }
